@@ -7,23 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB044D95297B13B70046442A /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB044D93297B13B70046442A /* PaymentTableViewCell.swift */; };
+		CB044D96297B13B70046442A /* PaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB044D94297B13B70046442A /* PaymentTableViewCell.xib */; };
+		CB044DA1297BD0040046442A /* MainTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB044D9F297BD0040046442A /* MainTabBar.storyboard */; };
+		CB044DA2297BD0040046442A /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB044DA0297BD0040046442A /* MainTabBarVC.swift */; };
+		CB044DA7297BD90C0046442A /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB044DA5297BD90C0046442A /* ProductViewController.swift */; };
+		CB044DA8297BD90C0046442A /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB044DA6297BD90C0046442A /* ProductViewController.xib */; };
+		CB044DAB297BE5EC0046442A /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB044DA9297BE5EC0046442A /* WishlistViewController.swift */; };
+		CB044DAC297BE5EC0046442A /* WishlistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB044DAA297BE5EC0046442A /* WishlistViewController.xib */; };
+		CB044DBB297C34BD0046442A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB044DBA297C34BD0046442A /* GoogleService-Info.plist */; };
+		CB044DBE297C5FC40046442A /* SucccesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB044DBC297C5FC40046442A /* SucccesViewController.swift */; };
+		CB044DBF297C5FC40046442A /* SucccesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB044DBD297C5FC40046442A /* SucccesViewController.xib */; };
+		CB044DC1297D8F900046442A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB044DC0297D8F900046442A /* Main.storyboard */; };
+		CB044DC3297D98E00046442A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB044DC2297D98E00046442A /* LoginViewController.swift */; };
+		CB044DC5297D9B320046442A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB044DC4297D9B320046442A /* RegisterViewController.swift */; };
+		CB044DC8297D9FE20046442A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CB044DC7297D9FE20046442A /* FirebaseAnalytics */; };
+		CB044DCA297D9FE20046442A /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CB044DC9297D9FE20046442A /* FirebaseAnalyticsSwift */; };
+		CB044DCC297D9FE20046442A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CB044DCB297D9FE20046442A /* FirebaseAuth */; };
+		CB044DCE297D9FE20046442A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CB044DCD297D9FE20046442A /* FirebaseDatabase */; };
+		CB044DD0297D9FE20046442A /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CB044DCF297D9FE20046442A /* FirebaseDatabaseSwift */; };
+		CB8772F5297A750600A66A16 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8772F3297A750600A66A16 /* CartViewController.swift */; };
+		CB8772F6297A750600A66A16 /* CartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8772F4297A750600A66A16 /* CartViewController.xib */; };
+		CB8772FD297A91E200A66A16 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8772FB297A91E200A66A16 /* DetailViewController.swift */; };
+		CB8772FE297A91E200A66A16 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8772FC297A91E200A66A16 /* DetailViewController.xib */; };
+		CB877301297A94C800A66A16 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8772FF297A94C800A66A16 /* OrderViewController.swift */; };
+		CB877302297A94C800A66A16 /* OrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB877300297A94C800A66A16 /* OrderViewController.xib */; };
+		CBB8F83D297A733A00DB2209 /* ProductCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB8F83C297A733A00DB2209 /* ProductCellCollectionViewCell.xib */; };
+		CBB8F845297A73DF00DB2209 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8F843297A73DF00DB2209 /* CartTableViewCell.swift */; };
+		CBB8F846297A73DF00DB2209 /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB8F844297A73DF00DB2209 /* CartTableViewCell.xib */; };
 		CBCE82642979890B006004FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE82632979890B006004FE /* AppDelegate.swift */; };
 		CBCE82662979890B006004FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE82652979890B006004FE /* SceneDelegate.swift */; };
-		CBCE82682979890B006004FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE82672979890B006004FE /* ViewController.swift */; };
-		CBCE826B2979890B006004FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCE82692979890B006004FE /* Main.storyboard */; };
 		CBCE826D2979890C006004FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCE826C2979890C006004FE /* Assets.xcassets */; };
 		CBCE82702979890C006004FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCE826E2979890C006004FE /* LaunchScreen.storyboard */; };
+		CBE72FF12979A9FD00B5C240 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE72FF02979A9FD00B5C240 /* ViewExtension.swift */; };
+		CBE72FF32979ADF200B5C240 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE72FF22979ADF200B5C240 /* ProductModel.swift */; };
+		CBE72FF6297A676F00B5C240 /* ProductCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE72FF4297A676F00B5C240 /* ProductCellCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB044D93297B13B70046442A /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
+		CB044D94297B13B70046442A /* PaymentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentTableViewCell.xib; sourceTree = "<group>"; };
+		CB044D9F297BD0040046442A /* MainTabBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainTabBar.storyboard; sourceTree = "<group>"; };
+		CB044DA0297BD0040046442A /* MainTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		CB044DA5297BD90C0046442A /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		CB044DA6297BD90C0046442A /* ProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
+		CB044DA9297BE5EC0046442A /* WishlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
+		CB044DAA297BE5EC0046442A /* WishlistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WishlistViewController.xib; sourceTree = "<group>"; };
+		CB044DBA297C34BD0046442A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB044DBC297C5FC40046442A /* SucccesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SucccesViewController.swift; sourceTree = "<group>"; };
+		CB044DBD297C5FC40046442A /* SucccesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SucccesViewController.xib; sourceTree = "<group>"; };
+		CB044DC0297D8F900046442A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CB044DC2297D98E00046442A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CB044DC4297D9B320046442A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CB8772F3297A750600A66A16 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		CB8772F4297A750600A66A16 /* CartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartViewController.xib; sourceTree = "<group>"; };
+		CB8772FB297A91E200A66A16 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CB8772FC297A91E200A66A16 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		CB8772FF297A94C800A66A16 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		CB877300297A94C800A66A16 /* OrderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderViewController.xib; sourceTree = "<group>"; };
+		CBB8F83C297A733A00DB2209 /* ProductCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		CBB8F843297A73DF00DB2209 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		CBB8F844297A73DF00DB2209 /* CartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
 		CBCE82602979890B006004FE /* ilmuOneData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ilmuOneData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCE82632979890B006004FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBCE82652979890B006004FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CBCE82672979890B006004FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CBCE826A2979890B006004FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBCE826C2979890C006004FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBCE826F2979890C006004FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBCE82712979890C006004FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE72FF02979A9FD00B5C240 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		CBE72FF22979ADF200B5C240 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		CBE72FF4297A676F00B5C240 /* ProductCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +84,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB044DD0297D9FE20046442A /* FirebaseDatabaseSwift in Frameworks */,
+				CB044DCA297D9FE20046442A /* FirebaseAnalyticsSwift in Frameworks */,
+				CB044DCC297D9FE20046442A /* FirebaseAuth in Frameworks */,
+				CB044DCE297D9FE20046442A /* FirebaseDatabase in Frameworks */,
+				CB044DC8297D9FE20046442A /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +114,37 @@
 		CBCE82622979890B006004FE /* ilmuOneData */ = {
 			isa = PBXGroup;
 			children = (
+				CB044DBA297C34BD0046442A /* GoogleService-Info.plist */,
+				CB044D9F297BD0040046442A /* MainTabBar.storyboard */,
+				CB044DA0297BD0040046442A /* MainTabBarVC.swift */,
+				CBE72FF4297A676F00B5C240 /* ProductCellCollectionViewCell.swift */,
+				CBB8F83C297A733A00DB2209 /* ProductCellCollectionViewCell.xib */,
 				CBCE82632979890B006004FE /* AppDelegate.swift */,
 				CBCE82652979890B006004FE /* SceneDelegate.swift */,
-				CBCE82672979890B006004FE /* ViewController.swift */,
-				CBCE82692979890B006004FE /* Main.storyboard */,
 				CBCE826C2979890C006004FE /* Assets.xcassets */,
 				CBCE826E2979890C006004FE /* LaunchScreen.storyboard */,
 				CBCE82712979890C006004FE /* Info.plist */,
+				CBE72FF02979A9FD00B5C240 /* ViewExtension.swift */,
+				CBE72FF22979ADF200B5C240 /* ProductModel.swift */,
+				CBB8F843297A73DF00DB2209 /* CartTableViewCell.swift */,
+				CBB8F844297A73DF00DB2209 /* CartTableViewCell.xib */,
+				CB8772F3297A750600A66A16 /* CartViewController.swift */,
+				CB8772F4297A750600A66A16 /* CartViewController.xib */,
+				CB8772FB297A91E200A66A16 /* DetailViewController.swift */,
+				CB8772FC297A91E200A66A16 /* DetailViewController.xib */,
+				CB8772FF297A94C800A66A16 /* OrderViewController.swift */,
+				CB877300297A94C800A66A16 /* OrderViewController.xib */,
+				CB044D93297B13B70046442A /* PaymentTableViewCell.swift */,
+				CB044D94297B13B70046442A /* PaymentTableViewCell.xib */,
+				CB044DA5297BD90C0046442A /* ProductViewController.swift */,
+				CB044DA6297BD90C0046442A /* ProductViewController.xib */,
+				CB044DA9297BE5EC0046442A /* WishlistViewController.swift */,
+				CB044DAA297BE5EC0046442A /* WishlistViewController.xib */,
+				CB044DBC297C5FC40046442A /* SucccesViewController.swift */,
+				CB044DBD297C5FC40046442A /* SucccesViewController.xib */,
+				CB044DC0297D8F900046442A /* Main.storyboard */,
+				CB044DC2297D98E00046442A /* LoginViewController.swift */,
+				CB044DC4297D9B320046442A /* RegisterViewController.swift */,
 			);
 			path = ilmuOneData;
 			sourceTree = "<group>";
@@ -83,6 +165,13 @@
 			dependencies = (
 			);
 			name = ilmuOneData;
+			packageProductDependencies = (
+				CB044DC7297D9FE20046442A /* FirebaseAnalytics */,
+				CB044DC9297D9FE20046442A /* FirebaseAnalyticsSwift */,
+				CB044DCB297D9FE20046442A /* FirebaseAuth */,
+				CB044DCD297D9FE20046442A /* FirebaseDatabase */,
+				CB044DCF297D9FE20046442A /* FirebaseDatabaseSwift */,
+			);
 			productName = ilmuOneData;
 			productReference = CBCE82602979890B006004FE /* ilmuOneData.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +200,9 @@
 				Base,
 			);
 			mainGroup = CBCE82572979890B006004FE;
+			packageReferences = (
+				CB044DC6297D9FE20046442A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CBCE82612979890B006004FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +218,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBCE82702979890C006004FE /* LaunchScreen.storyboard in Resources */,
+				CBB8F83D297A733A00DB2209 /* ProductCellCollectionViewCell.xib in Resources */,
+				CB044DA1297BD0040046442A /* MainTabBar.storyboard in Resources */,
+				CB8772FE297A91E200A66A16 /* DetailViewController.xib in Resources */,
+				CB044DAC297BE5EC0046442A /* WishlistViewController.xib in Resources */,
+				CB044DC1297D8F900046442A /* Main.storyboard in Resources */,
+				CB044D96297B13B70046442A /* PaymentTableViewCell.xib in Resources */,
+				CB877302297A94C800A66A16 /* OrderViewController.xib in Resources */,
+				CB044DBB297C34BD0046442A /* GoogleService-Info.plist in Resources */,
 				CBCE826D2979890C006004FE /* Assets.xcassets in Resources */,
-				CBCE826B2979890B006004FE /* Main.storyboard in Resources */,
+				CBB8F846297A73DF00DB2209 /* CartTableViewCell.xib in Resources */,
+				CB044DA8297BD90C0046442A /* ProductViewController.xib in Resources */,
+				CB8772F6297A750600A66A16 /* CartViewController.xib in Resources */,
+				CB044DBF297C5FC40046442A /* SucccesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +241,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBCE82682979890B006004FE /* ViewController.swift in Sources */,
+				CB044DA7297BD90C0046442A /* ProductViewController.swift in Sources */,
+				CB8772FD297A91E200A66A16 /* DetailViewController.swift in Sources */,
+				CB044D95297B13B70046442A /* PaymentTableViewCell.swift in Sources */,
+				CB044DC3297D98E00046442A /* LoginViewController.swift in Sources */,
+				CB877301297A94C800A66A16 /* OrderViewController.swift in Sources */,
+				CB044DAB297BE5EC0046442A /* WishlistViewController.swift in Sources */,
+				CB044DA2297BD0040046442A /* MainTabBarVC.swift in Sources */,
+				CB044DBE297C5FC40046442A /* SucccesViewController.swift in Sources */,
+				CBE72FF32979ADF200B5C240 /* ProductModel.swift in Sources */,
 				CBCE82642979890B006004FE /* AppDelegate.swift in Sources */,
 				CBCE82662979890B006004FE /* SceneDelegate.swift in Sources */,
+				CB044DC5297D9B320046442A /* RegisterViewController.swift in Sources */,
+				CB8772F5297A750600A66A16 /* CartViewController.swift in Sources */,
+				CBE72FF12979A9FD00B5C240 /* ViewExtension.swift in Sources */,
+				CBE72FF6297A676F00B5C240 /* ProductCellCollectionViewCell.swift in Sources */,
+				CBB8F845297A73DF00DB2209 /* CartTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CBCE82692979890B006004FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBCE826A2979890B006004FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CBCE826E2979890C006004FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -358,6 +466,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB044DC6297D9FE20046442A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB044DC7297D9FE20046442A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB044DC6297D9FE20046442A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CB044DC9297D9FE20046442A /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB044DC6297D9FE20046442A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		CB044DCB297D9FE20046442A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB044DC6297D9FE20046442A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CB044DCD297D9FE20046442A /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB044DC6297D9FE20046442A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		CB044DCF297D9FE20046442A /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB044DC6297D9FE20046442A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CBCE82582979890B006004FE /* Project object */;
 }
