@@ -1,0 +1,36 @@
+
+App Thinning Size Report for All Variants of ilmuOneData
+
+Variant: ilmuOneData-08F4EAE6-0A3F-4FA6-BAD2-4D08526B6784.ipa
+Supported variant descriptors: [device: iPhone14,2, os-version: 16.0], [device: iPhone15,3, os-version: 16.0], [device: iPhone10,2, os-version: 16.0], [device: iPhone10,6, os-version: 16.0], [device: iPhone13,4, os-version: 16.0], [device: iPhone11,2, os-version: 16.0], [device: iPhone14,7, os-version: 16.0], [device: iPhone14,5, os-version: 16.0], [device: iPhone12,5, os-version: 16.0], [device: iPhone14,3, os-version: 16.0], [device: iPhone15,2, os-version: 16.0], [device: iPhone13,3, os-version: 16.0], [device: iPhone11,6, os-version: 16.0], [device: iPhone12,3, os-version: 16.0], [device: iPhone14,8, os-version: 16.0], [device: iPhone14,4, os-version: 16.0], [device: iPhone10,5, os-version: 16.0], [device: iPhone11,4, os-version: 16.0], [device: iPhone10,3, os-version: 16.0], [device: iPhone13,1, os-version: 16.0], and [device: iPhone13,2, os-version: 16.0]
+App + On Demand Resources size: 1,8 MB compressed, 4,1 MB uncompressed
+App size: 1,8 MB compressed, 4,1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ilmuOneData-30041ED9-85B4-46D3-88F8-E1CEE84BDCFC.ipa
+Supported variant descriptors: [device: iPhone12,1, os-version: 16.0] and [device: iPhone11,8, os-version: 16.0]
+App + On Demand Resources size: 1,8 MB compressed, 4,1 MB uncompressed
+App size: 1,8 MB compressed, 4,1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ilmuOneData-9AB1C617-DE64-462B-8455-882A5CFDC24C.ipa
+Supported variant descriptors: [device: iPhone14,6, os-version: 16.0], [device: iPhone10,1, os-version: 16.0], [device: iPhone10,4, os-version: 16.0], and [device: iPhone12,8, os-version: 16.0]
+App + On Demand Resources size: 1,8 MB compressed, 4,1 MB uncompressed
+App size: 1,8 MB compressed, 4,1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ilmuOneData-E6569679-05E3-46A4-A4AE-573C003CA047.ipa
+Supported variant descriptors: [device: iPad6,3, os-version: 16.0], [device: iPad13,7, os-version: 16.0], [device: iPad8,10, os-version: 16.0], [device: iPad8,11, os-version: 16.0], [device: iPad14,2, os-version: 16.0], [device: iPad7,1, os-version: 16.0], [device: iPad12,2, os-version: 16.0], [device: iPad14,3-B, os-version: 16.0], [device: iPad8,6, os-version: 16.0], [device: iPad13,19, os-version: 16.0], [device: iPad13,4, os-version: 16.0], [device: iPad8,7, os-version: 16.0], [device: iPad11,6, os-version: 16.0], [device: iPad8,3, os-version: 16.0], [device: iPad6,4, os-version: 16.0], [device: iPad13,11, os-version: 16.0], [device: iPad13,9, os-version: 16.0], [device: iPad8,5, os-version: 16.0], [device: iPad13,10, os-version: 16.0], [device: iPad11,4, os-version: 16.0], [device: iPad14,5-A, os-version: 16.0], [device: iPad14,6-A, os-version: 16.0], [device: iPad6,11, os-version: 16.0], [device: iPad8,9, os-version: 16.0], [device: iPad13,18, os-version: 16.0], [device: iPad14,6-B, os-version: 16.0], [device: iPad13,6, os-version: 16.0], [device: iPad6,12, os-version: 16.0], [device: iPad6,8, os-version: 16.0], [device: iPad12,1, os-version: 16.0], [device: iPad14,4-A, os-version: 16.0], [device: iPad8,4, os-version: 16.0], [device: MacFamily20,1, os-version: 16.0], [device: iPad7,12, os-version: 16.0], [device: iPad13,2, os-version: 16.0], [device: iPad13,1, os-version: 16.0], [device: iPad8,8, os-version: 16.0], [device: iPad7,3, os-version: 16.0], [device: iPad13,5, os-version: 16.0], [device: iPad7,4, os-version: 16.0], [device: iPad11,2, os-version: 16.0], [device: iPad7,2, os-version: 16.0], [device: iPad14,3-A, os-version: 16.0], [device: iPad11,3, os-version: 16.0], [device: iPad14,4-B, os-version: 16.0], [device: iPad7,5, os-version: 16.0], [device: iPad14,1, os-version: 16.0], [device: iPad7,11, os-version: 16.0], [device: iPad8,2, os-version: 16.0], [device: iPad13,17, os-version: 16.0], [device: iPad7,6, os-version: 16.0], [device: iPad14,5-B, os-version: 16.0], [device: iPad11,7, os-version: 16.0], [device: iPad13,16, os-version: 16.0], [device: iPad13,8, os-version: 16.0], [device: iPad6,7, os-version: 16.0], [device: iPad11,1, os-version: 16.0], [device: iPad8,12, os-version: 16.0], and [device: iPad8,1, os-version: 16.0]
+App + On Demand Resources size: 1,8 MB compressed, 4,1 MB uncompressed
+App size: 1,8 MB compressed, 4,1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: ilmuOneData.ipa
+Supported variant descriptors: Universal
+App + On Demand Resources size: 2,2 MB compressed, 4,5 MB uncompressed
+App size: 2,2 MB compressed, 4,5 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

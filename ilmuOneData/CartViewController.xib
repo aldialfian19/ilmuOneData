@@ -31,7 +31,7 @@
                 </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" red="0.98823523520000001" green="0.92941176889999999" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color key="backgroundColor" red="0.9882352941176471" green="0.92941176470588238" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <constraints>
                 <constraint firstItem="0T1-En-ERJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="fOC-17-LLA"/>
                 <constraint firstAttribute="trailing" secondItem="0T1-En-ERJ" secondAttribute="trailing" constant="16" id="kaF-tS-71w"/>

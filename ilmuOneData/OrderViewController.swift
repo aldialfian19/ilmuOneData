@@ -31,6 +31,8 @@ class OrderViewController: UIViewController {
         addData()
         updateOrder()
         
+        self.hideKeyboardWhenTappedAround()
+        
         Analytics.logEvent(AnalyticsEventBeginCheckout, parameters: nil)
         
         refOrder = Database.database().reference().child(userID!).child("order");
